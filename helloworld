@@ -1,0 +1,8 @@
+hw = HelloWorldExample("bolt://localhost:7687", "neo4j", "abc123")
+hw.print_greeting("hello")
+hello, from node 2
+from neo4j import __version__ as neo4j_version
+print(neo4j_version)
+4.2.0    
+
+
